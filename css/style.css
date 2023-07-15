@@ -1,0 +1,123 @@
+.container {
+    display: flex;
+    height: 100vh;
+}
+  
+.left-section {
+    flex: 1;
+    position: relative;
+    width: 25%;
+}
+  
+.left-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+  
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  
+.overlay img {
+    max-width: 200px;
+    max-height: 200px;
+}
+  
+.right-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    text-align: left;
+    padding: 0;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #f8f9fa;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+form div {
+    width: 48%;
+    margin-bottom: 15px;
+    padding-left: 3vw; 
+}
+  
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+  
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    font-family: 'Arial', sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+input[type="submit"] {
+    width: auto; /* Adjusts the width to fit the content */
+    padding: 8px;
+    font-family: 'Arial', sans-serif;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px; /* Adds vertical space above the button */
+    margin-bottom: 20px;
+    width: 50%;
+    margin-right: auto;
+}
+  
+.signin-section {
+    margin-top: 10px;
+}
+  
+.signin-section a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+form div {
+    width: 30%; /* Adjusted from 70% to 30% for side by side layout */
+    margin: 0 auto; 
+    padding-left: 3vw;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+input[type="submit"] {
+    width: 100%; 
+}
+
+.submit-button {
+    width: auto; 
+    padding-left: 3vw; 
+}
+
+
+.padded {
+    padding-left: 3vw; 
+}
+
